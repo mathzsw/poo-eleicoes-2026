@@ -17,6 +17,10 @@ O trabalho utiliza os conceitos de:
 
 `Encapsulamento` • `Herança` • `Polimorfismo` • `Abstração`
 
+### 📐 Diagrama de Classes
+
+![Diagrama de Classes](docs/diagrama.png)
+
 ---
 
 **Professora:** Havana Diogo Alves Andrade
