@@ -10,7 +10,7 @@ class Governador extends politico_1.Politico {
         this.nomeEstado = nomeEstado;
     }
     exercerMandato() {
-        console.log('Mandato do Governador(${this.nomeEstado}):Sanciona e veta leis estaduais,decreta estado de calamidade e envia PEC à Assembleia Legislativa.');
+        console.log(`Mandato do Governador (${this.nomeEstado}): Sanciona e veta leis estaduais, decreta estado de calamidade e envia PEC à Assembleia Legislativa.`);
     }
     gerirPoliciaMilitar() {
         return "Gerir a polícia militar.";
@@ -21,8 +21,8 @@ class Governador extends politico_1.Politico {
     coordenarEducacaoSaudeEstado() {
         return "Coordenar a educaçao e saúde do estado.";
     }
-    elaborarEnviarPPSLFOALocalEstadual() {
-        return "Elaborar e enviar à Assembleia Legislativa o PPA,a LDO e a LOA estaduais.";
+    elaborarEnviarPPALDOALocalEstadual() {
+        return "Elaborar e enviar à Assembleia Legislativa o PPA, a LDO e a LOA estaduais.";
     }
 }
 exports.default = Governador;

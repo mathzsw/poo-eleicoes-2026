@@ -12,7 +12,7 @@ export default class Presidente extends Politico{
             projetos:string[],
             quantidadeMinistros:number
         ){
-        super(nome,partido,"federal","executido",nomeLocalTrabalho,enderecoLocalTrabalho,remuneracao,projetos);
+        super(nome,partido,"federal","executivo",nomeLocalTrabalho,enderecoLocalTrabalho,remuneracao,projetos);
         this.quantidadeMinistros = quantidadeMinistros;
 }
  

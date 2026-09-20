@@ -4,7 +4,7 @@ const politico_1 = require("./politico");
 class Presidente extends politico_1.Politico {
     quantidadeMinistros;
     constructor(nome, partido, nomeLocalTrabalho, enderecoLocalTrabalho, remuneracao, projetos, quantidadeMinistros) {
-        super(nome, partido, "federal", "executido", nomeLocalTrabalho, enderecoLocalTrabalho, remuneracao, projetos);
+        super(nome, partido, "federal", "executivo", nomeLocalTrabalho, enderecoLocalTrabalho, remuneracao, projetos);
         this.quantidadeMinistros = quantidadeMinistros;
     }
     exercerMandato() {

@@ -13,16 +13,16 @@ class DeputadoEstadual extends politico_1.Politico {
         this.listaComissoes = listaComissoes;
     }
     exercerMandato() {
-        console.log('Mandato do Deputado Estadual (${this.nomeEstado}): Legisla sobre assuntos de interesse do estado e fiscaliza o governador.');
+        console.log(`Mandato do Deputado Estadual (${this.nomeEstado}): Legisla sobre assuntos de interesse do estado e fiscaliza o governador.`);
     }
     votarPPALDOALocalEstadual() {
-        return "Votar a PPA, a LOA e a LDO do Estado.";
+        return "Votar o PPA, a LOA e a LDO do Estado.";
     }
-    proporEmendasConstitucaoEstadual() {
+    proporEmendasConstituicaoEstadual() {
         return "Propor emendas à constituição estadual.";
     }
     criarCPIEstadual() {
-        return "Criar CPI estadual";
+        return "Criar CPI estadual.";
     }
 }
 exports.default = DeputadoEstadual;

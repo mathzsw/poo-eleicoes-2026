@@ -7,6 +7,6 @@ export default class Governador extends Politico {
     gerirPoliciaMilitar(): string;
     administrarRodoviasEstaduais(): string;
     coordenarEducacaoSaudeEstado(): string;
-    elaborarEnviarPPSLFOALocalEstadual(): string;
+    elaborarEnviarPPALDOALocalEstadual(): string;
 }
 //# sourceMappingURL=governador.d.ts.map

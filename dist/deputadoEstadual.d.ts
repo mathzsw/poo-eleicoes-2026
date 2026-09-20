@@ -5,7 +5,7 @@ export default class DeputadoEstadual extends Politico {
     constructor(nome: string, partido: string, nomeLocalTrabalho: string, enderecoLocalTrabalho: string, remuneracao: number, projetos: string[], nomeEstado: string, listaComissoes: string[]);
     exercerMandato(): void;
     votarPPALDOALocalEstadual(): string;
-    proporEmendasConstitucaoEstadual(): string;
+    proporEmendasConstituicaoEstadual(): string;
     criarCPIEstadual(): string;
 }
 //# sourceMappingURL=deputadoEstadual.d.ts.map
